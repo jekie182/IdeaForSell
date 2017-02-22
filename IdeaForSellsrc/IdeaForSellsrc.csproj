@@ -193,10 +193,39 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\AdvertisementController.cs" />
+    <Compile Include="Controllers\AnyUpdateController.cs" />
+    <Compile Include="Controllers\CommendController.cs" />
+    <Compile Include="Controllers\ComunicationController.cs" />
+    <Compile Include="Controllers\FavouriteController.cs" />
+    <Compile Include="Controllers\HashTagRepoController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\LoginController.cs" />
+    <Compile Include="Controllers\MessageController.cs" />
+    <Compile Include="Controllers\RegistrationController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\BussinessModel\FunctionalModel\AccountManager.cs" />
+    <Compile Include="Models\BussinessModel\FunctionalModel\AdvertisementManager.cs" />
+    <Compile Include="Models\BussinessModel\FunctionalModel\AnyUpdateManager.cs" />
+    <Compile Include="Models\BussinessModel\FunctionalModel\CommendManager.cs" />
+    <Compile Include="Models\BussinessModel\FunctionalModel\ComunicationManager.cs" />
+    <Compile Include="Models\BussinessModel\FunctionalModel\FavouriteManager.cs" />
+    <Compile Include="Models\BussinessModel\FunctionalModel\HashTagManager.cs" />
+    <Compile Include="Models\BussinessModel\FunctionalModel\LoginManager.cs" />
+    <Compile Include="Models\BussinessModel\FunctionalModel\MessageManager.cs" />
+    <Compile Include="Models\BussinessModel\FunctionalModel\NavigationManager.cs" />
+    <Compile Include="Models\BussinessModel\FunctionalModel\RegistrationManager.cs" />
+    <Compile Include="Models\DataModel\DataInterface\IUserRecord.cs" />
+    <Compile Include="Models\DataModel\DataModel\BaseAdvertisement.cs" />
+    <Compile Include="Models\DataModel\DataModel\Commend.cs" />
+    <Compile Include="Models\DataModel\DataModel\HashTag.cs" />
+    <Compile Include="Models\MediaType.cs" />
+    <Compile Include="Models\MediaFile.cs" />
+    <Compile Include="Models\Result.cs" />
+    <Compile Include="Models\SessionConstant.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
@@ -225,7 +254,22 @@
     <Folder Include="App_Data\" />
     <Folder Include="Content\" />
     <Folder Include="fonts\" />
-    <Folder Include="Models\" />
+    <Folder Include="Models\BussinessModel\Interface\" />
+    <Folder Include="Models\BussinessModel\RepoModel\" />
+    <Folder Include="Models\SQLStatment\" />
+    <Folder Include="Models\ViewModel\ViewInterface\" />
+    <Folder Include="Models\ViewModel\ViewModel\" />
+    <Folder Include="Models\ViewModel\ViewResourceData\" />
+    <Folder Include="Views\Account\" />
+    <Folder Include="Views\Advertisement\" />
+    <Folder Include="Views\AnyUpdate\" />
+    <Folder Include="Views\Commend\" />
+    <Folder Include="Views\Comunication\" />
+    <Folder Include="Views\Favourite\" />
+    <Folder Include="Views\HashTagRepo\" />
+    <Folder Include="Views\Login\" />
+    <Folder Include="Views\Message\" />
+    <Folder Include="Views\Registration\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />

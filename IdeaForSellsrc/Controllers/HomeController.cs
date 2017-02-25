@@ -1,4 +1,5 @@
-﻿using System;
+﻿using IdeaForSellsrc.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -10,6 +11,7 @@ namespace IdeaForSellsrc.Controllers
     {
         public ActionResult Index()
         {
+            TestModel.Execute();
             return View();
         }
     }

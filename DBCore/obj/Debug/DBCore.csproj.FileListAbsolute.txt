@@ -1,0 +1,10 @@
+D:\SelfEmpliyed\IdeaForSell\DBCore\bin\Debug\DBCore.dll
+D:\SelfEmpliyed\IdeaForSell\DBCore\bin\Debug\DBCore.pdb
+D:\SelfEmpliyed\IdeaForSell\DBCore\obj\Debug\DBCore.dll
+D:\SelfEmpliyed\IdeaForSell\DBCore\obj\Debug\DBCore.pdb
+D:\SelfEmpliyed\IdeaForSell\DBCore\bin\Debug\DBCore.dll.config
+D:\SelfEmpliyed\IdeaForSell\DBCore\bin\Debug\EntityFramework.dll
+D:\SelfEmpliyed\IdeaForSell\DBCore\bin\Debug\EntityFramework.SqlServer.dll
+D:\SelfEmpliyed\IdeaForSell\DBCore\bin\Debug\EntityFramework.xml
+D:\SelfEmpliyed\IdeaForSell\DBCore\bin\Debug\EntityFramework.SqlServer.xml
+D:\SelfEmpliyed\IdeaForSell\DBCore\obj\Debug\DBCore.csprojResolveAssemblyReference.cache

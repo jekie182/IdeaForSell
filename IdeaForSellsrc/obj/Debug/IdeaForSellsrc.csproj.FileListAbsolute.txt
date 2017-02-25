@@ -15,8 +15,6 @@ D:\SelfEmpliyed\IdeaForSell\IdeaForSellsrc\bin\IdeaForSellsrc.dll.config
 D:\SelfEmpliyed\IdeaForSell\IdeaForSellsrc\bin\IdeaForSellsrc.dll
 D:\SelfEmpliyed\IdeaForSell\IdeaForSellsrc\bin\IdeaForSellsrc.pdb
 D:\SelfEmpliyed\IdeaForSell\IdeaForSellsrc\bin\Antlr3.Runtime.dll
-D:\SelfEmpliyed\IdeaForSell\IdeaForSellsrc\bin\EntityFramework.dll
-D:\SelfEmpliyed\IdeaForSell\IdeaForSellsrc\bin\EntityFramework.SqlServer.dll
 D:\SelfEmpliyed\IdeaForSell\IdeaForSellsrc\bin\Microsoft.AI.Agent.Intercept.dll
 D:\SelfEmpliyed\IdeaForSell\IdeaForSellsrc\bin\Microsoft.AI.DependencyCollector.dll
 D:\SelfEmpliyed\IdeaForSell\IdeaForSellsrc\bin\Microsoft.AI.PerfCounterCollector.dll
@@ -63,8 +61,6 @@ D:\SelfEmpliyed\IdeaForSell\IdeaForSellsrc\bin\System.Web.WebPages.Deployment.xm
 D:\SelfEmpliyed\IdeaForSell\IdeaForSellsrc\bin\System.Web.WebPages.Razor.xml
 D:\SelfEmpliyed\IdeaForSell\IdeaForSellsrc\bin\Antlr3.Runtime.pdb
 D:\SelfEmpliyed\IdeaForSell\IdeaForSellsrc\bin\Newtonsoft.Json.xml
-D:\SelfEmpliyed\IdeaForSell\IdeaForSellsrc\bin\EntityFramework.xml
-D:\SelfEmpliyed\IdeaForSell\IdeaForSellsrc\bin\EntityFramework.SqlServer.xml
 D:\SelfEmpliyed\IdeaForSell\IdeaForSellsrc\bin\Microsoft.AspNet.Identity.Core.xml
 D:\SelfEmpliyed\IdeaForSell\IdeaForSellsrc\bin\Microsoft.AspNet.Identity.Owin.xml
 D:\SelfEmpliyed\IdeaForSell\IdeaForSellsrc\bin\Microsoft.AspNet.Identity.EntityFramework.xml
@@ -79,3 +75,8 @@ D:\SelfEmpliyed\IdeaForSell\IdeaForSellsrc\bin\Microsoft.Owin.Security.Twitter.x
 D:\SelfEmpliyed\IdeaForSell\IdeaForSellsrc\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 D:\SelfEmpliyed\IdeaForSell\IdeaForSellsrc\obj\Debug\IdeaForSellsrc.dll
 D:\SelfEmpliyed\IdeaForSell\IdeaForSellsrc\obj\Debug\IdeaForSellsrc.pdb
+D:\SelfEmpliyed\IdeaForSell\IdeaForSellsrc\bin\DBCore.dll
+D:\SelfEmpliyed\IdeaForSell\IdeaForSellsrc\bin\DBCore.pdb
+D:\SelfEmpliyed\IdeaForSell\IdeaForSellsrc\obj\Debug\IdeaForSellsrc.csprojResolveAssemblyReference.cache
+D:\SelfEmpliyed\IdeaForSell\IdeaForSellsrc\bin\EntityFramework.SqlServer.dll
+D:\SelfEmpliyed\IdeaForSell\IdeaForSellsrc\bin\EntityFramework.SqlServer.xml

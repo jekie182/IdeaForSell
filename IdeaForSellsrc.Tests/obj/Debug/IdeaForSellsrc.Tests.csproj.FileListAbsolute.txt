@@ -40,3 +40,8 @@ D:\SelfEmpliyed\IdeaForSell\IdeaForSellsrc.Tests\bin\Debug\Microsoft.Owin.xml
 D:\SelfEmpliyed\IdeaForSell\IdeaForSellsrc.Tests\bin\Debug\System.Web.Optimization.xml
 D:\SelfEmpliyed\IdeaForSell\IdeaForSellsrc.Tests\obj\Debug\IdeaForSellsrc.Tests.dll
 D:\SelfEmpliyed\IdeaForSell\IdeaForSellsrc.Tests\obj\Debug\IdeaForSellsrc.Tests.pdb
+D:\SelfEmpliyed\IdeaForSell\IdeaForSellsrc.Tests\bin\Debug\DBCore.dll
+D:\SelfEmpliyed\IdeaForSell\IdeaForSellsrc.Tests\bin\Debug\EntityFramework.dll
+D:\SelfEmpliyed\IdeaForSell\IdeaForSellsrc.Tests\bin\Debug\EntityFramework.SqlServer.dll
+D:\SelfEmpliyed\IdeaForSell\IdeaForSellsrc.Tests\bin\Debug\DBCore.pdb
+D:\SelfEmpliyed\IdeaForSell\IdeaForSellsrc.Tests\bin\Debug\EntityFramework.SqlServer.xml

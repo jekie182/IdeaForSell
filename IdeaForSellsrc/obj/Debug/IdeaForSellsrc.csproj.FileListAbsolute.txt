@@ -80,3 +80,16 @@ D:\SelfEmpliyed\IdeaForSell\IdeaForSellsrc\bin\DBCore.pdb
 D:\SelfEmpliyed\IdeaForSell\IdeaForSellsrc\obj\Debug\IdeaForSellsrc.csprojResolveAssemblyReference.cache
 D:\SelfEmpliyed\IdeaForSell\IdeaForSellsrc\bin\EntityFramework.SqlServer.dll
 D:\SelfEmpliyed\IdeaForSell\IdeaForSellsrc\bin\EntityFramework.SqlServer.xml
+D:\SelfEmpliyed\IdeaForSell\IdeaForSellsrc\obj\Debug\IdeaForSellsrc.csproj.GenerateResource.Cache
+D:\SelfEmpliyed\IdeaForSell\IdeaForSellsrc\obj\Debug\IdeaForSellsrc.Models.ViewModel.Recources.IndexView.IndexView_en_USA.resources
+D:\SelfEmpliyed\IdeaForSell\IdeaForSellsrc\obj\Debug\IdeaForSellsrc.Models.ViewModel.Recources.IndexView.IndexView_ru_RU.resources
+D:\SelfEmpliyed\IdeaForSell\IdeaForSellsrc\obj\Debug\IdeaForSellsrc.Models.ViewModel.Recources.IndexView.IndexView_ua_UA.resources
+D:\SelfEmpliyed\IdeaForSell\IdeaForSellsrc\obj\Debug\IdeaForSellsrc.Models.ViewModel.Recources.LoginView.LoginView_en_USA.resources
+D:\SelfEmpliyed\IdeaForSell\IdeaForSellsrc\obj\Debug\IdeaForSellsrc.Models.ViewModel.Recources.LoginView.LoginView_ru_RU.resources
+D:\SelfEmpliyed\IdeaForSell\IdeaForSellsrc\obj\Debug\IdeaForSellsrc.Models.ViewModel.Recources.LoginView.LoginView_ua_UA.resources
+D:\SelfEmpliyed\IdeaForSell\IdeaForSellsrc\obj\Debug\IdeaForSellsrc.Models.DataModel.RequestModelFromView.ValidationMessage_en_USA.resources
+D:\SelfEmpliyed\IdeaForSell\IdeaForSellsrc\obj\Debug\IdeaForSellsrc.Models.DataModel.RequestModelFromView.ValidationMessage_ru_RU.resources
+D:\SelfEmpliyed\IdeaForSell\IdeaForSellsrc\obj\Debug\IdeaForSellsrc.Models.DataModel.RequestModelFromView.ValidationMessage_ua_UA.resources
+D:\SelfEmpliyed\IdeaForSell\IdeaForSellsrc\obj\Debug\IdeaForSellsrc.Models.ViewModel.Recources.RegistrationView.RegistrationView_en_USA.resources
+D:\SelfEmpliyed\IdeaForSell\IdeaForSellsrc\obj\Debug\IdeaForSellsrc.Models.ViewModel.Recources.RegistrationView.RegistrationView_ru_RU.resources
+D:\SelfEmpliyed\IdeaForSell\IdeaForSellsrc\obj\Debug\IdeaForSellsrc.Models.ViewModel.Recources.RegistrationView.RegistrationView_ua_UA.resources

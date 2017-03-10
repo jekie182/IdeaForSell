@@ -88,6 +88,15 @@ namespace IdeaForSellsrc.Models.DataModel.RequestModelFromView {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to User with the same User Id is already exist, please pick up another User Id..
+        /// </summary>
+        internal static string LoginAlreadyExist {
+            get {
+                return ResourceManager.GetString("LoginAlreadyExist", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Max length of e-mail adress is 100 chars!.
         /// </summary>
         internal static string MaxEmailLength {

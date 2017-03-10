@@ -25,6 +25,11 @@ namespace IdeaForSellsrc.Controllers
             else return data as SessionUserData;
         }
 
+        public void SetUserId(string userId, HttpSessionStateBase session)
+        {
+            (session[CurrentUserSessionData] as SessionUserData).Id = userId;
+        }
+
         public void SetSessionUserData(SessionUserData data, HttpSessionStateBase session)
         {
             session[CurrentUserSessionData] = data;

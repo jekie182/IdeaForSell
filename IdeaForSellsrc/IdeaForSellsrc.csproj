@@ -221,6 +221,7 @@
     <Compile Include="Models\BussinessModel\FunctionalModel\MessageManager.cs" />
     <Compile Include="Models\BussinessModel\FunctionalModel\NavigationManager.cs" />
     <Compile Include="Models\BussinessModel\FunctionalModel\RegistrationManager.cs" />
+    <Compile Include="Models\BussinessModel\RepoModel\UserInfoData.cs" />
     <Compile Include="Models\DataModel\DataInterface\IUserRecord.cs" />
     <Compile Include="Models\DataModel\DataModel\BaseAdvertisement.cs" />
     <Compile Include="Models\DataModel\DataModel\Commend.cs" />
@@ -445,7 +446,6 @@
     <Folder Include="App_Data\" />
     <Folder Include="fonts\" />
     <Folder Include="Models\BussinessModel\Interface\" />
-    <Folder Include="Models\BussinessModel\RepoModel\" />
     <Folder Include="Models\DataModel\RequestModelFromView\LoginView\" />
     <Folder Include="Models\SQLStatment\" />
     <Folder Include="Models\ViewModel\ViewResourceData\" />

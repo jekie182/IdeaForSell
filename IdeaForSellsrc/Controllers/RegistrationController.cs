@@ -1,4 +1,6 @@
 ﻿using IdeaForSellsrc.Models;
+using IdeaForSellsrc.Models.BussinessModel.FunctionalModel;
+using IdeaForSellsrc.Models.BussinessModel.RepoModel;
 using IdeaForSellsrc.Models.DataModel.RequestModelFromView.RegistrationView;
 using IdeaForSellsrc.Models.ViewModel;
 using IdeaForSellsrc.Models.ViewModel.Recources.RegistrationView;
@@ -17,9 +19,10 @@ namespace IdeaForSellsrc.Controllers
     /// </summary>
     public class RegistrationController : BaseController
     {
+        private SessionManager sessionManager =new SessionManager();
         public ActionResult Registration()
         {
-            SessionUserData ssdata = new SessionManager().GetSessionUserData(Session);
+            SessionUserData ssdata = sessionManager.GetSessionUserData(Session);
             RegistrationViewModel model = new RegistrationViewModel(ssdata, new RegistrationViewResourceManager(ssdata.Lang));
             return View("Registration", model);
         }
@@ -31,12 +34,19 @@ namespace IdeaForSellsrc.Controllers
             ModelResult<List<string>> validResult = regUser.Validate();
             if (validResult.IsSuccess)
             {
+                //LoginAlreadyExist
+                ModelResult result = new RegistrationManager().CreateNewUser(regUser.UserName, regUser.Password);
+                if(!result.IsSuccess)
+                    return TranslateMessage(ref result, sessionManager.GetSessionUserData(Session));
 
+                UserInfoData userModel = (UserInfoData)result.Result;
+                Session[UserIdKey] = userModel?.UserId;
+                
                 return View("Account");
             }
             else
             {
-                return TranslateMessage(ref validResult, new SessionManager().GetSessionUserData(Session));
+                return TranslateMessage(ref validResult, sessionManager.GetSessionUserData(Session));
             }
         }
     }

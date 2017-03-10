@@ -12,6 +12,7 @@ namespace IdeaForSellsrc.Controllers
 {
     public class BaseController : Controller
     {
+        protected readonly string UserIdKey = "UserId";
         public ActionResult TranslateMessage(ref ModelResult<List<string>> messages, SessionUserData data)
         {
             if (messages.Result != null && messages.Result.Count > 0)
@@ -39,6 +40,31 @@ namespace IdeaForSellsrc.Controllers
                 }
             }
             return Json(new JavaScriptSerializer().Serialize(messages));
+        }
+
+        public ActionResult TranslateMessage(ref ModelResult result, SessionUserData data)
+        {
+                Type currentType = typeof(ValidationMessage_en_USA);
+
+                switch (data.Lang)
+                {
+                    case Language.en_USA:
+                        currentType = typeof(ValidationMessage_en_USA);
+                        break;
+                    case Language.ru_RU:
+                        currentType = typeof(ValidationMessage_ru_RU);
+                        break;
+                    case Language.ua_UA:
+                        currentType = typeof(ValidationMessage_ua_UA);
+                        break;
+                }
+                var tempMan = new global::System.Resources.ResourceManager(currentType);
+
+                string trMessage = tempMan.GetString(result.Message);
+                    if (!string.IsNullOrEmpty(trMessage))
+                        result.Message = trMessage;
+ 
+            return Json(new JavaScriptSerializer().Serialize(result));
         }
     }
 }

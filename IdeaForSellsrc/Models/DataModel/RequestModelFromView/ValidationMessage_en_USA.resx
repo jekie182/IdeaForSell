@@ -126,6 +126,9 @@
   <data name="EmailRequired" xml:space="preserve">
     <value>Email fileld is required</value>
   </data>
+  <data name="LoginAlreadyExist" xml:space="preserve">
+    <value>User with the same User Id is already exist, please pick up another User Id.</value>
+  </data>
   <data name="MaxEmailLength" xml:space="preserve">
     <value>Max length of e-mail adress is 100 chars!</value>
   </data>

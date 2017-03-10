@@ -15,7 +15,7 @@
     <title>@Model.ListOfLiterals["Tittle"]</title>
 
     <script src="~/Content/jquery-2.1.1.js"></script>
-
+    <script src="~/assets/js/messageProvider.js"></script>
     <!-- Bootstrap core CSS -->
     <link href="~/assets/css/bootstrap.css" rel="stylesheet">
     <!--external css-->
@@ -44,13 +44,12 @@
             <form class="form-login" id="RegistrationFormId">
                 <h2 class="form-login-heading">@Model.ListOfLiterals["Registration"]</h2>
                 <div class="login-wrap">
-                    <input type="text" class="form-control" name="UserName" placeholder="@Model.ListOfLiterals["UserID"]" autofocus>
+                    <input type="text" class="form-control" name="UserName" maxlength="50" placeholder="@Model.ListOfLiterals["UserID"]" autofocus>
                     <br>
-                    <input type="password" class="form-control" name = "Password" placeholder="@Model.ListOfLiterals["Password"]">
+                    <input type="password" class="form-control" name = "Password" maxlength="50" placeholder="@Model.ListOfLiterals["Password"]">
                     <br>
-                    <input type="password" class="form-control" name ="ConfirmPassword" placeholder="@Model.ListOfLiterals["ConfirmPassword"]">
+                    <input type="password" class="form-control" name ="ConfirmPassword" maxlength="50" placeholder="@Model.ListOfLiterals["ConfirmPassword"]">
                     <br>
-                    <input type="email" class="form-control" name="Email" placeholder="@Model.ListOfLiterals["Email"]">
                     <label class="checkbox">
                     </label>
                     <button class="btn btn-theme btn-block" href="index.html" type="submit"><i class="fa fa-lock"></i> @Model.ListOfLiterals["CREATEACCOUNTButton"]</button>
@@ -82,8 +81,12 @@
                 url: url,
                 data: $("#RegistrationFormId").serialize(), // serializes the form's elements.
                 success: function (data) {
-                    debugger;
-                    alert(data); // show response from the php script.
+                    if (isJsonResult(data)) {
+                        showModalMessage();
+                    }
+                    else {
+                        alert('not j son');
+                    }
                 }
             });
             e.preventDefault(); // avoid to execute the actual submit of the form.
